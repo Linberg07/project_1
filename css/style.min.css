@@ -664,7 +664,8 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 .request__form-btn button:hover {
-	background-color: #FFD234
+	color: #fff;
+	background-color: #3798F2;
 }
 .benefits__inner{
 	display: grid;
@@ -1546,6 +1547,9 @@ right: 20px;
 	display: none;
 }
 @media (max-width: 1100px){
+	.section__title{
+
+	}
 	.icon__bg{
 	display: block;
 }
@@ -1940,7 +1944,7 @@ height: 1300px;
 		display: block;
 		position: relative;
 		bottom:-550px;
-		left:0%;
+		left:10%;
 		width: 70%;
 	}
 	
@@ -1969,8 +1973,26 @@ height: 1300px;
 		padding: 30px 10px 20px 10px
 	}
 }
-
+@media (max-width: 670px){
+		.request__mob{
+		display: block;
+		position: relative;
+		bottom:-550px;
+		left:5%;
+		width: 70%;
+	}
+}
 @media (max-width: 600px) {
+		.request__mob{
+		display: block;
+		position: relative;
+		bottom:-550px;
+		left:5%;
+		width: 70%;
+	}
+	.difficulties__btn{
+		margin-left: 5%;
+	}
 	.request__form {
 		width: 400px;
 		padding: 29px 40px 59px 40px
